@@ -1,0 +1,307 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Email from Hemant</title>-->
+<!--    <style>-->
+<!--        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');-->
+
+<!--        body {-->
+<!--            background-color: #0d1117;-->
+<!--            font-family: 'Inter', sans-serif;-->
+<!--            color: #c9d1d9;-->
+<!--            margin: 0;-->
+<!--            padding: 0;-->
+<!--            display: flex;-->
+<!--            align-items: center;-->
+<!--            justify-content: center;-->
+<!--            min-height: 100vh;-->
+<!--        }-->
+
+<!--        .email-card {-->
+<!--            background-color: #161b22;-->
+<!--            border: 1px solid #30363d;-->
+<!--            border-radius: 12px;-->
+<!--            padding: 40px;-->
+<!--            max-width: 600px;-->
+<!--            width: 90%;-->
+<!--            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);-->
+<!--        }-->
+
+<!--        h2 {-->
+<!--            color: #58a6ff;-->
+<!--            margin-bottom: 10px;-->
+<!--        }-->
+
+<!--        p {-->
+<!--            line-height: 1.6;-->
+<!--            font-size: 16px;-->
+<!--            margin: 15px 0;-->
+<!--        }-->
+
+<!--        .user-message {-->
+<!--            background-color: #21262d;-->
+<!--            border-left: 4px solid #58a6ff;-->
+<!--            padding: 15px;-->
+<!--            border-radius: 6px;-->
+<!--            margin-top: 20px;-->
+<!--            color: #d2d7dc;-->
+<!--            font-style: italic;-->
+<!--        }-->
+
+<!--        .footer {-->
+<!--            font-size: 13px;-->
+<!--            color: #8b949e;-->
+<!--            border-top: 1px solid #30363d;-->
+<!--            margin-top: 30px;-->
+<!--            padding-top: 20px;-->
+<!--            text-align: center;-->
+<!--        }-->
+
+<!--        .signature {-->
+<!--            font-weight: 600;-->
+<!--            color: #ffffff;-->
+<!--            margin-top: 10px;-->
+<!--        }-->
+
+<!--        .tagline {-->
+<!--            font-size: 14px;-->
+<!--            color: #58a6ff;-->
+<!--            margin-top: 4px;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="email-card">-->
+<!--    <h2>Hello <span th:text="${name}">Friend</span> 👋</h2>-->
+<!--    <p>-->
+<!--        I'm truly grateful that you reached out to me.<br>-->
+<!--        Your message has been received and I’ll get back to you as soon as possible.-->
+<!--    </p>-->
+
+<!--    <div class="user-message">-->
+<!--        <span th:text="${message}">This is a placeholder for your message.</span>-->
+<!--    </div>-->
+
+<!--    <div class="footer">-->
+<!--        <div class="signature">— Hemant</div>-->
+<!--        <div class="tagline">Building Dev Tools & Digital Experiences 🛠️</div>-->
+<!--        <div>Team ContactUs • Made with 💻 in India</div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if mso]>
+    <xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+        <o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
+    <![endif]--><!--[if !mso]><!--><!--<![endif]-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: inherit !important;
+        }
+
+        #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        p {
+            line-height: inherit
+        }
+
+        .desktop_hide,
+        .desktop_hide table {
+            mso-hide: all;
+            display: none;
+            max-height: 0px;
+            overflow: hidden;
+        }
+
+        .footer{
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .image_block img+div {
+            display: none;
+        }
+
+        sup,
+        sub {
+            font-size: 75%;
+            line-height: 0;
+        }
+
+        @media (max-width:620px) {
+
+            .desktop_hide table.icons-inner,
+            .social_block.desktop_hide .social-table {
+                display: inline-block !important;
+                background-color: black !important;
+            }
+
+            .icons-inner {
+                text-align: center;
+            }
+
+            .icons-inner td {
+                margin: 0 auto;
+            }
+
+            .image_block div.fullWidth {
+                max-width: 100% !important;
+            }
+
+            .row-content {
+                width: 100% !important;
+            }
+
+            .stack .column {
+                width: 100%;
+                display: block;
+            }
+
+            .mobile_hide {
+                min-height: 0;
+                max-height: 0;
+                max-width: 0;
+                overflow: hidden;
+                font-size: 0px;
+            }
+
+            .desktop_hide,
+            .desktop_hide table {
+                display: table !important;
+                max-height: none !important;
+            }
+        }
+    </style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->
+</head>
+
+<body class="body" style="background-color: #010015; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #010015;">
+    <tbody>
+    <tr>
+        <td>
+            <table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #010015; background-size: auto;">
+                <tbody>
+                <tr>
+                    <td>
+                        <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto; color: #000000; width: 600px; margin: 0 auto;" width="600">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; padding-top: 5px; vertical-align: top;">
+                                    <div class="spacer_block block-1" style="height:8px;line-height:8px;font-size:1px;">&#8202;</div>
+                                    <table class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+                                                <div class="alignment" align="center">
+                                                    <div class="fullWidth" style="max-width: 348px;"><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/3986/header3.png" style="display: block; height: auto; border: 0; width: 100%;" width="348" alt="Main Image" title="Main Image" height="auto"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                        <tr>
+                                            <td class="pad" style="padding-bottom:15px;padding-top:10px;">
+                                                <div style="color:#ffffff;font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;font-size:30px;line-height:1.2;text-align:center;mso-line-height-alt:36px;">
+                                                    <p style="margin: 0; word-break: break-word;"><span style="word-break: break-word;">Hey, <span th:text="${name}">Friend</span> 👋</span></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="paragraph_block block-4" width="100%" border="0" cellpadding="5" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                        <tr>
+                                            <td class="pad">
+                                                <div style="color:#7f96ef;font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;font-size:15px;line-height:1.5;text-align:center;mso-line-height-alt:23px;">
+                                                    <p style="margin: 0; word-break: break-word;">I'm truly grateful that you reached out to me.</p>
+                                                    <p style="margin: 0; word-break: break-word;">Your message has been received, and I’ll get back to you as soon as possible.</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="button_block block-5" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td class="pad" style="padding-bottom:20px;padding-left:15px;padding-right:15px;padding-top:20px;text-align:center;">
+                                                <div class="alignment" align="center"><a href="https://www.misterhemant.tech/" target="_blank" style="color:#091548;text-decoration:none;"><!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"  href="https://www.misterhemant.tech/"  style="height:44px;width:294px;v-text-anchor:middle;" arcsize="39%" fillcolor="#99d0db">
+                                                        <v:stroke dashstyle="Solid" weight="0px" color="#99d0db"/>
+                                                        <w:anchorlock/>
+                                                        <v:textbox inset="0px,0px,0px,0px">
+                                                            <center dir="false" style="color:#091548;font-family:'Courier New', Courier, monospace;font-size:17px">
+                                                    <![endif]--><span class="button" style="background-color: #99d0db; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 17px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #091548; display: inline-block; font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace; font-size: 17px; font-weight: 700; mso-border-alt: none; padding-bottom: 0px; padding-top: 0px; padding-left: 10px; padding-right: 10px; text-align: center; width: auto; word-break: keep-all; letter-spacing: normal;"><span style="word-break: break-word;"><span style="word-break: break-word; line-height: 34px;" data-mce-style><strong> www.misterhemant.tech </strong></span></span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="divider_block block-6" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td class="pad" style="padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:10px;">
+                                                <div class="alignment" align="center">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="60%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td class="divider_inner" style="font-size: 1px; line-height: 1px; border-top: 1px solid #5A6BA8;"><span style="word-break: break-word;">&#8202;</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="paragraph_block block-7" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+                                        <tr>
+                                            <td class="pad" style="padding-bottom:10px;padding-left:25px;padding-right:25px;padding-top:10px;">
+                                                <div style="color:#7f96ef;font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;font-size:14px;line-height:1.5;text-align:center;mso-line-height-alt:21px;">
+                                                    <p style="margin: 0; word-break: break-word;">Building Dev Tools & Digital Experiences.</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="footer" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td class=" footer">
+                                                <div class="footer" align="center">
+                                                    <table class="social-table footer" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;">
+                                                        <tr>
+                                                            <td style="padding:0 2px 0 2px;"><a href="https://www.linkedin.com/in/hemantmedhsia" target="_blank"><img src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/default-black/linkedin@2x.png" width="32" height="auto" alt="Linkedin" title="linkedin" style="display: block; height: auto; border: 0;"></a></td>
+                                                            <td style="padding:0 2px 0 2px;"><a href="https://www.instagram.com/hemant_____g" target="_blank"><img src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/default-black/instagram@2x.png" width="32" height="auto" alt="Instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
+                                                            <td style="padding:0 2px 0 2px;"><a href="https://www.github.com/hemantmedhsia"><img src="https://0be464a766.imgdist.com/pub/bfra/rowght55/vwm/3i0/3j8/eb9ef4c7-0292-492a-8caf-27eea1378eeb.jpg" width="32" height="auto" alt="Custom" title="Custom" style="display: block; height: auto; border: 0;"></a></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table><!-- End -->
+</body>
+
+</html>
